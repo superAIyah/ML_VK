@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfuncs.a  CMakeFiles/funcs.dir/animal/animal.c.o CMakeFiles/funcs.dir/save_input/save_input.c.o
+/usr/bin/ranlib libfuncs.a

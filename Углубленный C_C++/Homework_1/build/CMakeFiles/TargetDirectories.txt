@@ -1,3 +1,6 @@
 /home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles/rebuild_cache.dir
 /home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles/edit_cache.dir
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles/animals.dir
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles/fib.dir
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs/CMakeFiles/rebuild_cache.dir
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs/CMakeFiles/edit_cache.dir
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs/CMakeFiles/funcs.dir

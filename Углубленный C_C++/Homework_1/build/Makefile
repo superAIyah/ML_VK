@@ -111,71 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named animals
+# Target rules for targets named fib
 
 # Build rule for target.
-animals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 animals
-.PHONY : animals
+fib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fib
+.PHONY : fib
 
 # fast build rule for target.
-animals/fast:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/build
-.PHONY : animals/fast
+fib/fast:
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/build
+.PHONY : fib/fast
 
-funcs/animal/animal.o: funcs/animal/animal.c.o
+#=============================================================================
+# Target rules for targets named funcs
 
-.PHONY : funcs/animal/animal.o
+# Build rule for target.
+funcs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funcs
+.PHONY : funcs
 
-# target to build an object file
-funcs/animal/animal.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.o
-.PHONY : funcs/animal/animal.c.o
-
-funcs/animal/animal.i: funcs/animal/animal.c.i
-
-.PHONY : funcs/animal/animal.i
-
-# target to preprocess a source file
-funcs/animal/animal.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.i
-.PHONY : funcs/animal/animal.c.i
-
-funcs/animal/animal.s: funcs/animal/animal.c.s
-
-.PHONY : funcs/animal/animal.s
-
-# target to generate assembly for a file
-funcs/animal/animal.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.s
-.PHONY : funcs/animal/animal.c.s
-
-funcs/save_input/save_input.o: funcs/save_input/save_input.c.o
-
-.PHONY : funcs/save_input/save_input.o
-
-# target to build an object file
-funcs/save_input/save_input.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.o
-.PHONY : funcs/save_input/save_input.c.o
-
-funcs/save_input/save_input.i: funcs/save_input/save_input.c.i
-
-.PHONY : funcs/save_input/save_input.i
-
-# target to preprocess a source file
-funcs/save_input/save_input.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.i
-.PHONY : funcs/save_input/save_input.c.i
-
-funcs/save_input/save_input.s: funcs/save_input/save_input.c.s
-
-.PHONY : funcs/save_input/save_input.s
-
-# target to generate assembly for a file
-funcs/save_input/save_input.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.s
-.PHONY : funcs/save_input/save_input.c.s
+# fast build rule for target.
+funcs/fast:
+	$(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/build
+.PHONY : funcs/fast
 
 main.o: main.c.o
 
@@ -183,7 +142,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.o
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -192,7 +151,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.i
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -201,7 +160,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.s
+	$(MAKE) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -212,13 +171,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... animals"
-	@echo "... funcs/animal/animal.o"
-	@echo "... funcs/animal/animal.i"
-	@echo "... funcs/animal/animal.s"
-	@echo "... funcs/save_input/save_input.o"
-	@echo "... funcs/save_input/save_input.i"
-	@echo "... funcs/save_input/save_input.s"
+	@echo "... fib"
+	@echo "... funcs"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,12 +1,16 @@
 cmake_minimum_required(VERSION 3.0.0)
+project(fib)
 
-project(animals VERSION 0.1.0)
+add_subdirectory(funcs)
 
-file(GLOB SOURCES "main.c" "funcs/*/*.c")
-file(GLOB INCLUDE_DIRS "funcs/*/")
+message("FIB_LIB_INCLUDE_DIRS = ${FIB_LIB_INCLUDE_DIRS}")
+message("FIB_LIB_LIBRARIES = ${FIB_LIB_LIBRARIES}")
 
-add_executable(${PROJECT_NAME} ${SOURCES}) # создай исполняемый файл из src
-target_include_directories(${PROJECT_NAME} PUBLIC ${INCLUDE_DIRS}) # добавь возможность искать инклуды
+add_executable(${PROJECT_NAME} main.c) # создай исполняемый файл с таким названием
 
-message("SOURCES = ${SOURCES}")
-message("INCLUDE_DIRS = ${INCLUDE_DIRS}")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -coverage -lgcov" )
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${FIB_LIB_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} PRIVATE ${FIB_LIB_LIBRARIES})
+
+#add_subdirectory(tests)
