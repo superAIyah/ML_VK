@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input" 
+C_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input" 
 

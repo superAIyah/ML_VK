@@ -123,86 +123,86 @@ animals/fast:
 	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/build
 .PHONY : animals/fast
 
-src/animal/animal.o: src/animal/animal.c.o
+funcs/animal/animal.o: funcs/animal/animal.c.o
 
-.PHONY : src/animal/animal.o
-
-# target to build an object file
-src/animal/animal.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/animal/animal.c.o
-.PHONY : src/animal/animal.c.o
-
-src/animal/animal.i: src/animal/animal.c.i
-
-.PHONY : src/animal/animal.i
-
-# target to preprocess a source file
-src/animal/animal.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/animal/animal.c.i
-.PHONY : src/animal/animal.c.i
-
-src/animal/animal.s: src/animal/animal.c.s
-
-.PHONY : src/animal/animal.s
-
-# target to generate assembly for a file
-src/animal/animal.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/animal/animal.c.s
-.PHONY : src/animal/animal.c.s
-
-src/main.o: src/main.c.o
-
-.PHONY : src/main.o
+.PHONY : funcs/animal/animal.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/main.c.o
-.PHONY : src/main.c.o
+funcs/animal/animal.c.o:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.o
+.PHONY : funcs/animal/animal.c.o
 
-src/main.i: src/main.c.i
+funcs/animal/animal.i: funcs/animal/animal.c.i
 
-.PHONY : src/main.i
+.PHONY : funcs/animal/animal.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/main.c.i
-.PHONY : src/main.c.i
+funcs/animal/animal.c.i:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.i
+.PHONY : funcs/animal/animal.c.i
 
-src/main.s: src/main.c.s
+funcs/animal/animal.s: funcs/animal/animal.c.s
 
-.PHONY : src/main.s
+.PHONY : funcs/animal/animal.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/main.c.s
-.PHONY : src/main.c.s
+funcs/animal/animal.c.s:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/animal/animal.c.s
+.PHONY : funcs/animal/animal.c.s
 
-src/save_input/save_input.o: src/save_input/save_input.c.o
+funcs/save_input/save_input.o: funcs/save_input/save_input.c.o
 
-.PHONY : src/save_input/save_input.o
+.PHONY : funcs/save_input/save_input.o
 
 # target to build an object file
-src/save_input/save_input.c.o:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/save_input/save_input.c.o
-.PHONY : src/save_input/save_input.c.o
+funcs/save_input/save_input.c.o:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.o
+.PHONY : funcs/save_input/save_input.c.o
 
-src/save_input/save_input.i: src/save_input/save_input.c.i
+funcs/save_input/save_input.i: funcs/save_input/save_input.c.i
 
-.PHONY : src/save_input/save_input.i
+.PHONY : funcs/save_input/save_input.i
 
 # target to preprocess a source file
-src/save_input/save_input.c.i:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/save_input/save_input.c.i
-.PHONY : src/save_input/save_input.c.i
+funcs/save_input/save_input.c.i:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.i
+.PHONY : funcs/save_input/save_input.c.i
 
-src/save_input/save_input.s: src/save_input/save_input.c.s
+funcs/save_input/save_input.s: funcs/save_input/save_input.c.s
 
-.PHONY : src/save_input/save_input.s
+.PHONY : funcs/save_input/save_input.s
 
 # target to generate assembly for a file
-src/save_input/save_input.c.s:
-	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/src/save_input/save_input.c.s
-.PHONY : src/save_input/save_input.c.s
+funcs/save_input/save_input.c.s:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/funcs/save_input/save_input.c.s
+.PHONY : funcs/save_input/save_input.c.s
+
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles/animals.dir/build.make CMakeFiles/animals.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -213,15 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... animals"
-	@echo "... src/animal/animal.o"
-	@echo "... src/animal/animal.i"
-	@echo "... src/animal/animal.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/save_input/save_input.o"
-	@echo "... src/save_input/save_input.i"
-	@echo "... src/save_input/save_input.s"
+	@echo "... funcs/animal/animal.o"
+	@echo "... funcs/animal/animal.i"
+	@echo "... funcs/animal/animal.s"
+	@echo "... funcs/save_input/save_input.o"
+	@echo "... funcs/save_input/save_input.i"
+	@echo "... funcs/save_input/save_input.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/animals.dir/src/animal/animal.c.o"
-  "CMakeFiles/animals.dir/src/main.c.o"
-  "CMakeFiles/animals.dir/src/save_input/save_input.c.o"
+  "CMakeFiles/animals.dir/funcs/animal/animal.c.o"
+  "CMakeFiles/animals.dir/funcs/save_input/save_input.c.o"
+  "CMakeFiles/animals.dir/main.c.o"
   "animals"
   "animals.pdb"
 )

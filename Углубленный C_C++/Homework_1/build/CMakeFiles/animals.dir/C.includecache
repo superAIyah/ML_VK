@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-../src/animal/animal.h
+../funcs/animal/animal.h
 constants.h
-../src/animal/constants.h
+../funcs/animal/constants.h
 
-../src/constants/constants.h
+../funcs/constants/constants.h
 
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.c
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c
 animal.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.h
 
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.h
 constants.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/constants.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/constants.h
 
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c
-stdio.h
--
-string.h
--
-constants.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/constants.h
-animal.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal.h
-
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.c
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.c
 save_input.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.h
 
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.h
 regex.h
 -
 stdio.h
 -
 animal.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/animal.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/main.c
+stdio.h
+-
+string.h
+-
+constants.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/constants.h
+animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/animal.h
 

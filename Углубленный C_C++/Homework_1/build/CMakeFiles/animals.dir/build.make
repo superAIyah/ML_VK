@@ -57,57 +57,57 @@ include CMakeFiles/animals.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/animals.dir/flags.make
 
-CMakeFiles/animals.dir/src/animal/animal.c.o: CMakeFiles/animals.dir/flags.make
-CMakeFiles/animals.dir/src/animal/animal.c.o: ../src/animal/animal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/animals.dir/src/animal/animal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/src/animal/animal.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.c"
+CMakeFiles/animals.dir/funcs/animal/animal.c.o: CMakeFiles/animals.dir/flags.make
+CMakeFiles/animals.dir/funcs/animal/animal.c.o: ../funcs/animal/animal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/animals.dir/funcs/animal/animal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/funcs/animal/animal.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c"
 
-CMakeFiles/animals.dir/src/animal/animal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/src/animal/animal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.c" > CMakeFiles/animals.dir/src/animal/animal.c.i
+CMakeFiles/animals.dir/funcs/animal/animal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/funcs/animal/animal.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c" > CMakeFiles/animals.dir/funcs/animal/animal.c.i
 
-CMakeFiles/animals.dir/src/animal/animal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/src/animal/animal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.c" -o CMakeFiles/animals.dir/src/animal/animal.c.s
+CMakeFiles/animals.dir/funcs/animal/animal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/funcs/animal/animal.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c" -o CMakeFiles/animals.dir/funcs/animal/animal.c.s
 
-CMakeFiles/animals.dir/src/main.c.o: CMakeFiles/animals.dir/flags.make
-CMakeFiles/animals.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/animals.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/src/main.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c"
+CMakeFiles/animals.dir/funcs/save_input/save_input.c.o: CMakeFiles/animals.dir/flags.make
+CMakeFiles/animals.dir/funcs/save_input/save_input.c.o: ../funcs/save_input/save_input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/animals.dir/funcs/save_input/save_input.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/funcs/save_input/save_input.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.c"
 
-CMakeFiles/animals.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c" > CMakeFiles/animals.dir/src/main.c.i
+CMakeFiles/animals.dir/funcs/save_input/save_input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/funcs/save_input/save_input.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.c" > CMakeFiles/animals.dir/funcs/save_input/save_input.c.i
 
-CMakeFiles/animals.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c" -o CMakeFiles/animals.dir/src/main.c.s
+CMakeFiles/animals.dir/funcs/save_input/save_input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/funcs/save_input/save_input.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.c" -o CMakeFiles/animals.dir/funcs/save_input/save_input.c.s
 
-CMakeFiles/animals.dir/src/save_input/save_input.c.o: CMakeFiles/animals.dir/flags.make
-CMakeFiles/animals.dir/src/save_input/save_input.c.o: ../src/save_input/save_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/animals.dir/src/save_input/save_input.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/src/save_input/save_input.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.c"
+CMakeFiles/animals.dir/main.c.o: CMakeFiles/animals.dir/flags.make
+CMakeFiles/animals.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/animals.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/animals.dir/main.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/main.c"
 
-CMakeFiles/animals.dir/src/save_input/save_input.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/src/save_input/save_input.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.c" > CMakeFiles/animals.dir/src/save_input/save_input.c.i
+CMakeFiles/animals.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/animals.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/main.c" > CMakeFiles/animals.dir/main.c.i
 
-CMakeFiles/animals.dir/src/save_input/save_input.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/src/save_input/save_input.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.c" -o CMakeFiles/animals.dir/src/save_input/save_input.c.s
+CMakeFiles/animals.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/animals.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/main.c" -o CMakeFiles/animals.dir/main.c.s
 
 # Object files for target animals
 animals_OBJECTS = \
-"CMakeFiles/animals.dir/src/animal/animal.c.o" \
-"CMakeFiles/animals.dir/src/main.c.o" \
-"CMakeFiles/animals.dir/src/save_input/save_input.c.o"
+"CMakeFiles/animals.dir/funcs/animal/animal.c.o" \
+"CMakeFiles/animals.dir/funcs/save_input/save_input.c.o" \
+"CMakeFiles/animals.dir/main.c.o"
 
 # External object files for target animals
 animals_EXTERNAL_OBJECTS =
 
-animals: CMakeFiles/animals.dir/src/animal/animal.c.o
-animals: CMakeFiles/animals.dir/src/main.c.o
-animals: CMakeFiles/animals.dir/src/save_input/save_input.c.o
+animals: CMakeFiles/animals.dir/funcs/animal/animal.c.o
+animals: CMakeFiles/animals.dir/funcs/save_input/save_input.c.o
+animals: CMakeFiles/animals.dir/main.c.o
 animals: CMakeFiles/animals.dir/build.make
 animals: CMakeFiles/animals.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable animals"
