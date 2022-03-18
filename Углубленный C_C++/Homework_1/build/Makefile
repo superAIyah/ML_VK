@@ -136,6 +136,19 @@ funcs/fast:
 	$(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/build
 .PHONY : funcs/fast
 
+#=============================================================================
+# Target rules for targets named test_fib
+
+# Build rule for target.
+test_fib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_fib
+.PHONY : test_fib
+
+# fast build rule for target.
+test_fib/fast:
+	$(MAKE) -f tests/CMakeFiles/test_fib.dir/build.make tests/CMakeFiles/test_fib.dir/build
+.PHONY : test_fib/fast
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -173,6 +186,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... fib"
 	@echo "... funcs"
+	@echo "... test_fib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

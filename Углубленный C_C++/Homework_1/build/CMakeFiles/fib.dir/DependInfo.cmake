@@ -13,7 +13,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../funcs/CMakeLists.txt"
   "../funcs/animal"
   "../funcs/constants"
-  "../funcs/save_input"
+  "../funcs/fib"
+  "../funcs/safe_input"
   )
 
 # Targets to which this target links.

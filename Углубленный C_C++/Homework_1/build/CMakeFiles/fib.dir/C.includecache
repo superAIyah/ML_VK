@@ -9,6 +9,8 @@
 ../funcs/animal/animal.h
 constants.h
 ../funcs/animal/constants.h
+stdio.h
+-
 
 ../funcs/constants/constants.h
 

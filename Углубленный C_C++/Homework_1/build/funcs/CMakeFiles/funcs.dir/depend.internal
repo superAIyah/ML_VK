@@ -5,8 +5,11 @@ funcs/CMakeFiles/funcs.dir/animal/animal.c.o
  ../funcs/constants/constants.h
  /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c
  /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.h
-funcs/CMakeFiles/funcs.dir/save_input/save_input.c.o
+funcs/CMakeFiles/funcs.dir/fib/fib.c.o
+ /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib/fib.c
+ /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib/fib.h
+funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o
  ../funcs/animal/animal.h
  ../funcs/constants/constants.h
- /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.c
- /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/save_input/save_input.h
+ /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input/safe_input.c
+ /home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input/safe_input.h
