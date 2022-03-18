@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/animal/animal.h
+constants.h
+../src/animal/constants.h
+
+../src/constants/constants.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.c
+animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/animal.h
+constants.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal/constants.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/main.c
+stdio.h
+-
+string.h
+-
+constants.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/constants.h
+animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/animal.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.c
+save_input.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.h
+
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/save_input.h
+regex.h
+-
+stdio.h
+-
+animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/src/save_input/animal.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/animals.dir/src/animal/animal.c.o CMakeFiles/animals.dir/src/main.c.o CMakeFiles/animals.dir/src/save_input/save_input.c.o  -o animals 
