@@ -17,4 +17,6 @@ jobs:
         pwd
         ls -la
         script
-        make check
+        pt update -y && \
+        apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
+        /build/tests/test_fib
