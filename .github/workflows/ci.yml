@@ -16,7 +16,8 @@ jobs:
         cd Углубленный_C_C++/Homework_1/
         pwd
         ls -la
-        script
-        pt update -y && \
+        apt update -y && \
         apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
+        pip install cpplint
+        script
         /build/tests/test_fib
