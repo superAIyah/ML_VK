@@ -15,6 +15,9 @@ jobs:
       run : |
         cd Углубленный_C_C++/Homework_1/
         pwd
+        ls -la
 
     - name: Prepare project
-      run : ./script
+      run : |
+        ls -la
+        ./script
