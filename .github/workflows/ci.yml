@@ -26,3 +26,13 @@ jobs:
         cmake --build .
         cd ..
         build/tests/test_fib
+    
+    - name: TESTS
+      run : |
+        cd Углубленный_C_C++/Homework_1/
+        build/tests/test_fib
+
+    - name: LINTER
+      run: |
+        cd Углубленный_C_C++/Homework_1/
+        make check
