@@ -1,11 +1,12 @@
 on: push
 
-my_testing:
-  runs-on: ubuntu-latest
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
 
-  steps:
-  - name: Git clone my repo
-    uses: actions/checkout@v1
+    steps:
+    - name: Git clone my repo
+      uses: actions/checkout@v1
 
-  - name: LS
-    run: ls -la
+    - name: LS
+      run : ls -la
