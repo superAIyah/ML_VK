@@ -11,11 +11,12 @@ jobs:
     - name: LS
       run : ls -la
     
-    - name: Go to project
+    - name: Prepare project
       run : |
         cd Углубленный_C_C++/Homework_1/
         pwd
         ls -la
+        ./script
 
     - name: Prepare project
       run : |
