@@ -4,15 +4,16 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    working-directory: Углубленный_C_C++/Homework_1
-    - uses: actions/checkout@v2
-    - run: |
-     apt update -y && \
-     apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
-     pip install cpplint
-     rm -rf build
-     mkdir build
-     cd build
-     cmake ..
-     cmake --build .
-     ./build/tests/test_fib
+      - uses: actions/checkout@v2
+      working-directory: Углубленный_C_C++/Homework_1
+      - run: make check
+      - run: |
+      apt update -y && \
+      apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
+      pip install cpplint
+      rm -rf build
+      mkdir build
+      cd build
+      cmake ..
+      cmake --build .
+      ./build/tests/test_fib
