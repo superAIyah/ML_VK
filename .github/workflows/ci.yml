@@ -10,3 +10,8 @@ jobs:
 
     - name: LS
       run : ls -la
+    
+    - name: Go to project
+      run : |
+        cd Углубленный_C_C++/Homework_1/
+        pwd
