@@ -18,7 +18,7 @@ jobs:
         ls -la
         sudo apt update -y
         sudo apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
-        sudo ip install cpplint
+        sudo pip install cpplint
         rm -rf build
         mkdir build
         cd build
