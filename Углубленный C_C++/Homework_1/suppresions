@@ -1,0 +1,6 @@
+{
+   ignore_gtest_conditional_jump_errors
+   Memcheck:Leak
+   ...
+   obj:*/gtest.cc.*
+}

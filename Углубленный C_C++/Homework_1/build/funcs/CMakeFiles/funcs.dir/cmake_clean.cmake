@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/funcs.dir/animal/animal.c.o"
-  "CMakeFiles/funcs.dir/fib/fib.c.o"
   "CMakeFiles/funcs.dir/safe_input/safe_input.c.o"
   "libfuncs.a"
   "libfuncs.pdb"

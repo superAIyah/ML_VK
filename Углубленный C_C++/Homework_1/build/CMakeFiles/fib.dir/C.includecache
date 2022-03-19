@@ -15,12 +15,12 @@ stdio.h
 ../funcs/constants/constants.h
 
 /home/fedor/Future/VK/Углубленный C_C++/Homework_1/main.c
+animal.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/animal.h
+constants.h
+/home/fedor/Future/VK/Углубленный C_C++/Homework_1/constants.h
 stdio.h
 -
 string.h
 -
-constants.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/constants.h
-animal.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/animal.h
 

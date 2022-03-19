@@ -6,5 +6,5 @@ C_FLAGS = -fprofile-arcs -ftest-coverage -fPIC -O0
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/CMakeLists.txt" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input" 
+C_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/CMakeLists.txt" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input" 
 

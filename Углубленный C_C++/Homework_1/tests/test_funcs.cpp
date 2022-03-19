@@ -7,7 +7,6 @@ extern "C" {
     #include "constants.h"
     #include "animal.h"
     #include "safe_input.h"
-    #include "fib.h"
 }
 
 void read_all(FILE* stream, char* res) { // функция, считывающая поток в строку
@@ -102,7 +101,12 @@ TEST_F(GroupTest, group_NOT_exist) {
 
     EXPECT_EQ(strcmp(result, expected_not_exist), 0);
 }
-//lcov -t "tests/test_funcs" -o coverage.info -c -d funcs/ 
+
+//cd build/
+//lcov -t "tests/test_funcs" -o coverage.info -c -d funcs/
+//genhtml -o report coverage.info
+//cd report
+//python3 -m http.server 8000
 
 TEST (wrong_input, symbol_and_overflow) {
     char* expected = "Вы ввели некорректные символы, попробуйте еще раз\n"

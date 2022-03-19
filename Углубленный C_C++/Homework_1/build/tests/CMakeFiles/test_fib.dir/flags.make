@@ -6,5 +6,5 @@ CXX_FLAGS = -fprofile-arcs -ftest-coverage -O0   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/CMakeLists.txt" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input" 
+CXX_INCLUDES = -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/CMakeLists.txt" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/constants" -I"/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input" 
 

@@ -70,22 +70,9 @@ funcs/CMakeFiles/funcs.dir/animal/animal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/funcs.dir/animal/animal.c.s"
 	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/animal/animal.c" -o CMakeFiles/funcs.dir/animal/animal.c.s
 
-funcs/CMakeFiles/funcs.dir/fib/fib.c.o: funcs/CMakeFiles/funcs.dir/flags.make
-funcs/CMakeFiles/funcs.dir/fib/fib.c.o: ../funcs/fib/fib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object funcs/CMakeFiles/funcs.dir/fib/fib.c.o"
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/funcs.dir/fib/fib.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib/fib.c"
-
-funcs/CMakeFiles/funcs.dir/fib/fib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/funcs.dir/fib/fib.c.i"
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib/fib.c" > CMakeFiles/funcs.dir/fib/fib.c.i
-
-funcs/CMakeFiles/funcs.dir/fib/fib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/funcs.dir/fib/fib.c.s"
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/fib/fib.c" -o CMakeFiles/funcs.dir/fib/fib.c.s
-
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o: funcs/CMakeFiles/funcs.dir/flags.make
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o: ../funcs/safe_input/safe_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o"
 	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/funcs.dir/safe_input/safe_input.c.o   -c "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/funcs/safe_input/safe_input.c"
 
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.i: cmake_force
@@ -99,18 +86,16 @@ funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.s: cmake_force
 # Object files for target funcs
 funcs_OBJECTS = \
 "CMakeFiles/funcs.dir/animal/animal.c.o" \
-"CMakeFiles/funcs.dir/fib/fib.c.o" \
 "CMakeFiles/funcs.dir/safe_input/safe_input.c.o"
 
 # External object files for target funcs
 funcs_EXTERNAL_OBJECTS =
 
 funcs/libfuncs.a: funcs/CMakeFiles/funcs.dir/animal/animal.c.o
-funcs/libfuncs.a: funcs/CMakeFiles/funcs.dir/fib/fib.c.o
 funcs/libfuncs.a: funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o
 funcs/libfuncs.a: funcs/CMakeFiles/funcs.dir/build.make
 funcs/libfuncs.a: funcs/CMakeFiles/funcs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libfuncs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libfuncs.a"
 	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && $(CMAKE_COMMAND) -P CMakeFiles/funcs.dir/cmake_clean_target.cmake
 	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/funcs" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/funcs.dir/link.txt --verbose=$(VERBOSE)
 

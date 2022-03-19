@@ -120,7 +120,7 @@ CMakeFiles/fib.dir/all: funcs/CMakeFiles/funcs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 0
 .PHONY : CMakeFiles/fib.dir/rule
@@ -142,12 +142,12 @@ CMakeFiles/fib.dir/clean:
 funcs/CMakeFiles/funcs.dir/all:
 	$(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/depend
 	$(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=3,4,5,6 "Built target funcs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=3,4,5 "Built target funcs"
 .PHONY : funcs/CMakeFiles/funcs.dir/all
 
 # Build rule for subdir invocation for target.
 funcs/CMakeFiles/funcs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 funcs/CMakeFiles/funcs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 0
 .PHONY : funcs/CMakeFiles/funcs.dir/rule
@@ -169,12 +169,12 @@ funcs/CMakeFiles/funcs.dir/clean:
 tests/CMakeFiles/test_fib.dir/all: funcs/CMakeFiles/funcs.dir/all
 	$(MAKE) -f tests/CMakeFiles/test_fib.dir/build.make tests/CMakeFiles/test_fib.dir/depend
 	$(MAKE) -f tests/CMakeFiles/test_fib.dir/build.make tests/CMakeFiles/test_fib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=7,8 "Built target test_fib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" --progress-num=6,7 "Built target test_fib"
 .PHONY : tests/CMakeFiles/test_fib.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/test_fib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_fib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build/CMakeFiles" 0
 .PHONY : tests/CMakeFiles/test_fib.dir/rule

@@ -14,8 +14,6 @@ stdio.h
 
 ../funcs/constants/constants.h
 
-../funcs/fib/fib.h
-
 ../funcs/safe_input/safe_input.h
 regex.h
 -
@@ -37,6 +35,4 @@ animal.h
 /home/fedor/Future/VK/Углубленный C_C++/Homework_1/tests/animal.h
 safe_input.h
 /home/fedor/Future/VK/Углубленный C_C++/Homework_1/tests/safe_input.h
-fib.h
-/home/fedor/Future/VK/Углубленный C_C++/Homework_1/tests/fib.h
 

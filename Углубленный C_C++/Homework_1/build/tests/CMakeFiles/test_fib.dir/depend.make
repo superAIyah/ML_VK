@@ -3,7 +3,6 @@
 
 tests/CMakeFiles/test_fib.dir/test_funcs.cpp.o: ../funcs/animal/animal.h
 tests/CMakeFiles/test_fib.dir/test_funcs.cpp.o: ../funcs/constants/constants.h
-tests/CMakeFiles/test_fib.dir/test_funcs.cpp.o: ../funcs/fib/fib.h
 tests/CMakeFiles/test_fib.dir/test_funcs.cpp.o: ../funcs/safe_input/safe_input.h
 tests/CMakeFiles/test_fib.dir/test_funcs.cpp.o: ../tests/test_funcs.cpp
 

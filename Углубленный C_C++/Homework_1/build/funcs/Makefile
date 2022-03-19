@@ -152,33 +152,6 @@ animal/animal.c.s:
 	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build" && $(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/animal/animal.c.s
 .PHONY : animal/animal.c.s
 
-fib/fib.o: fib/fib.c.o
-
-.PHONY : fib/fib.o
-
-# target to build an object file
-fib/fib.c.o:
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build" && $(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/fib/fib.c.o
-.PHONY : fib/fib.c.o
-
-fib/fib.i: fib/fib.c.i
-
-.PHONY : fib/fib.i
-
-# target to preprocess a source file
-fib/fib.c.i:
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build" && $(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/fib/fib.c.i
-.PHONY : fib/fib.c.i
-
-fib/fib.s: fib/fib.c.s
-
-.PHONY : fib/fib.s
-
-# target to generate assembly for a file
-fib/fib.c.s:
-	cd "/home/fedor/Future/VK/Углубленный C_C++/Homework_1/build" && $(MAKE) -f funcs/CMakeFiles/funcs.dir/build.make funcs/CMakeFiles/funcs.dir/fib/fib.c.s
-.PHONY : fib/fib.c.s
-
 safe_input/safe_input.o: safe_input/safe_input.c.o
 
 .PHONY : safe_input/safe_input.o
@@ -218,9 +191,6 @@ help:
 	@echo "... animal/animal.o"
 	@echo "... animal/animal.i"
 	@echo "... animal/animal.s"
-	@echo "... fib/fib.o"
-	@echo "... fib/fib.i"
-	@echo "... fib/fib.s"
 	@echo "... safe_input/safe_input.o"
 	@echo "... safe_input/safe_input.i"
 	@echo "... safe_input/safe_input.s"

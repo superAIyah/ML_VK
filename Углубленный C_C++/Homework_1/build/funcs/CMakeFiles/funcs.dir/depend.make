@@ -5,9 +5,6 @@ funcs/CMakeFiles/funcs.dir/animal/animal.c.o: ../funcs/constants/constants.h
 funcs/CMakeFiles/funcs.dir/animal/animal.c.o: ../funcs/animal/animal.c
 funcs/CMakeFiles/funcs.dir/animal/animal.c.o: ../funcs/animal/animal.h
 
-funcs/CMakeFiles/funcs.dir/fib/fib.c.o: ../funcs/fib/fib.c
-funcs/CMakeFiles/funcs.dir/fib/fib.c.o: ../funcs/fib/fib.h
-
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o: ../funcs/animal/animal.h
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o: ../funcs/constants/constants.h
 funcs/CMakeFiles/funcs.dir/safe_input/safe_input.c.o: ../funcs/safe_input/safe_input.c

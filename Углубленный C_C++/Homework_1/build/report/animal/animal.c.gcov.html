@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2022-03-19 00:49:33</td>
+            <td class="headerValue">2022-03-19 05:20:43</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">2</td>
@@ -62,16 +62,16 @@
 <pre class="source">
 <a name="1"><span class="lineNum">       1 </span>            : #include &quot;animal.h&quot;</a>
 <a name="2"><span class="lineNum">       2 </span>            : </a>
-<a name="3"><span class="lineNum">       3 </span><span class="lineCov">          3 : void show_animal(FILE* output, Animal a) { // вывод полей животного</span></a>
+<a name="3"><span class="lineNum">       3 </span><span class="lineCov">          3 : void show_animal(FILE* output, Animal a) {  // вывод полей животного</span></a>
 <a name="4"><span class="lineNum">       4 </span><span class="lineCov">          3 :     fprintf(output, &quot;name = %s\n&quot;, a.name);</span></a>
 <a name="5"><span class="lineNum">       5 </span><span class="lineCov">          3 :     fprintf(output, &quot;type = %s\n&quot;, a.type);</span></a>
 <a name="6"><span class="lineNum">       6 </span><span class="lineCov">          3 :     fprintf(output, &quot;color = %s\n&quot;, a.color);</span></a>
 <a name="7"><span class="lineNum">       7 </span><span class="lineCov">          3 : }</span></a>
 <a name="8"><span class="lineNum">       8 </span>            : </a>
-<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          2 : void show_by_group(FILE* output, Animal* mas, int n, char typ[]) { // вывести животных по группе</span></a>
+<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          2 : void show_by_group(FILE* output, Animal* mas, int n, char typ[]) {  // вывести животных по группе</span></a>
 <a name="10"><span class="lineNum">      10 </span><span class="lineCov">          2 :     int cnt = 0;</span></a>
 <a name="11"><span class="lineNum">      11 </span><span class="lineCov">          8 :     for (int i = 0; i &lt; n; i++) {</span></a>
-<a name="12"><span class="lineNum">      12 </span><span class="lineCov">          6 :         if (strcmp(mas[i].type, typ) == 0) { // сравниваем типы животных</span></a>
+<a name="12"><span class="lineNum">      12 </span><span class="lineCov">          6 :         if (strcmp(mas[i].type, typ) == 0) {  // сравниваем типы животных</span></a>
 <a name="13"><span class="lineNum">      13 </span><span class="lineCov">          2 :             fprintf(output, &quot;%d animal:\n&quot;, cnt + 1);</span></a>
 <a name="14"><span class="lineNum">      14 </span><span class="lineCov">          2 :             show_animal(output, mas[i]);</span></a>
 <a name="15"><span class="lineNum">      15 </span><span class="lineCov">          2 :             cnt++;</span></a>
