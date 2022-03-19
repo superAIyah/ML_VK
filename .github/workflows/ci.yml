@@ -18,6 +18,11 @@ jobs:
         ls -la
         sudo apt update -y
         sudo apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
-        pip install cpplint
-        script
+        sudo ip install cpplint
+        rm -rf build
+        mkdir build
+        cd build
+        cmake ..
+        cmake --build .
+        cd ..
         /build/tests/test_fib
