@@ -1,11 +1,11 @@
 on: push
 
-jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd Углубленный_C_C++/Homework_1/
-      - run: echo ${pwd}
-      - run: ./script
-      - run: make check
+my_testing:
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: Git clone my repo
+    uses: actions/checkout@v1
+
+  - name: LS
+    run: ls -la
