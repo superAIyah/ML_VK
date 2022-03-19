@@ -6,14 +6,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: make check
-      - run: |
-      cd Углубленный_C_C++/Homework_1
-      apt update -y && \
-      apt install -y cppcheck clang-tidy python3-pip libc6-dbg cmake libgtest-dev
-      pip install cpplint
-      rm -rf build
-      mkdir build
-      cd build
-      cmake ..
-      cmake --build .
-      ./build/tests/test_fib
