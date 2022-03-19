@@ -27,10 +27,14 @@ jobs:
         cd ..
         build/tests/test_fib
     
-    - name: TESTS
+    - name: TESTS + COVERAGE
       run : |
         cd Углубленный_C_C++/Homework_1/
         build/tests/test_fib
+        sudo apt install lcov
+        cd build/
+        lcov -t "tests/test_funcs" -o coverage.info -c -d funcs/
+        genhtml -o report coverage.info
 
     - name: LINTER
       run: |
