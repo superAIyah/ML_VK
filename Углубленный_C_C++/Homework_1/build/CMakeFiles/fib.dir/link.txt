@@ -1,0 +1,1 @@
+/usr/bin/cc    -coverage -lgcov -rdynamic CMakeFiles/fib.dir/main.c.o  -o fib  funcs/libfuncs.a 
